@@ -1,0 +1,96 @@
+#form-box{
+
+}
+.form-control{
+    display: inline-block;
+  
+/*background:rgba(3, 150, 88, 1);; */
+margin-right: 10px;
+
+padding: 10px;
+float: left;
+}
+ 
+#login-containerBox{
+
+    
+    
+
+
+    display: inline-flexbox;
+    border: 10px solid rgba(2, 112, 0, 1) ;
+
+border-image-source: linear-gradient(0deg, #027000, #027000),
+linear-gradient(180deg, #16BC27 50%, rgba(255, 255, 255, 0) 50%);
+
+
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 100%),
+linear-gradient(0deg, #039658, #039658);
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
+
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+
+   /* background:rgba(3, 150, 88, 1); */
+ padding: 150px;
+ margin-left: 20px;
+ margin-right : 20px;
+ flex-direction: left;
+
+}
+
+.login-header{
+    
+    
+    margin-right: 40px;
+    margin-left: 0px;
+   
+    
+    padding: 25px;
+    width: 300px;
+    
+    
+}
+#borderBox{
+ 
+   
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+   padding: 20px;
+   width: 300px;
+   border-radius: 58px;
+   background: rgb(226, 226, 226);
+}
+#btn-login{
+    display: inline-flex;
+    padding: 20px;
+    width: 125px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+}
+#btn-register{
+    display: inline-block;
+    padding: 20px;
+    width: 125px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+}
+#room{
+    display: inline-flex;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 58px; 
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+    margin-left: 5px;
+}

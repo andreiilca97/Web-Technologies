@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleRegister.css">
+    <script defer src="./registerScript.js"></script>
+</head>
+<body>
+    
+    <div class="container" id="container-box">
+        <div class="container-header"><h1>Create Account</h1></div>
+   
+   
+        <form  action="register.html" id = "container-form">
+            <div class="form-control">
+                <label for="username" >Username</label>
+                <input id="borderBox"
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Enter username..."
+                required
+                 />
+                 <small id="error">Error Message</small>
+            </div>
+                
+            <div class="form-control">                  
+                <label for="email">Email</label>
+                    <input id="borderBox"
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email..."
+                    required
+                   />
+                   <small id="error">Error Message</small>
+            </div>
+            
+            
+            <div class="form-control">                  
+                    <label for="password">Password</label>
+                        <input id="borderBox"
+                        type="text"
+                        name="password"
+                        id="password"
+                        placeholder="Enter password..."
+                        required
+                       />
+                       <small id="error">Error Message</small>
+                </div>
+                <button type="hyperlink"  id="btn-register">
+                    REGISTER ACCOUNT
+                </button>
+        </form>
+        <button type="hyperlink"  id="btn-login">
+            <a href="http://localhost:3000/">LOGIN PAGE</a>
+        </button>
+   
+    </div>
+
+</body>
+</html>

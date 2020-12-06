@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/styleLogin.css">
+    <title>Document</title>
+    <script defer src="./loginScript.js"></script>
+</head>
+
+<body>
+    
+   
+    <div id="login-containerBox">
+        <div class="login-header">
+            <h2>Login account</h2>
+        </br>
+        </div>
+        <form  action="login.html" id = "form-box">
+            
+                
+    <div class="form-control">
+			<label for="username" >Username</label>
+			<input id="borderBox"
+		    type="text"
+			name="username"
+			id="username"
+			placeholder="Enter username..."
+			required
+						/>
+                    </div>
+    <div class="form-control">                  
+    <label for="password">Password</label>
+        <input id="borderBox"
+        type="text"
+        name="password"
+        id="password"
+        placeholder="Enter password..."
+        required
+       />
+     </div>
+     
+     <div class="form-control">
+        <label for="room">Room</label>
+        <select name="room" id="room">
+            <option value="room1">room 1</option>
+            <option value="room2">room 2</option>
+            <option value="room3">room 3</option>
+            <option value="room4">room 4</option>
+            <option value="room5">room 5</option>
+            <option value="room6">room 6</option>
+        </select>
+    
+    </div>
+</br>
+
+
+    <button type="submit" class="btn" id="btn-login" target = "./static/index.html">LOGIN</button>
+    
+            </form>
+        </br>
+            <button type="hyperlink"  id="btn-register">
+                <a href="./static/register.html">REGISTER</a>
+            </button>
+        </div>
+        
+    
+</body>
+</html>
